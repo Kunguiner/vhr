@@ -5,8 +5,10 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-new Vue({
+const vue = new Vue({
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+});
+vue.$mount('#app');
+window.vue = vue;
