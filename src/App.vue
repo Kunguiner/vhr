@@ -4,8 +4,8 @@
       <router-link to="/">Home</router-link> |
       <!-- <router-link to="/about">About</router-link> -->
 <!--      -->
-      <router-link to="/vfor">测试v-for</router-link> |
-      <router-link to="/enlargeText">测试组件传参</router-link>
+      <router-link to="/vfor">测试v-for(不需要登录)</router-link> |
+      <router-link to="/enlargeText">测试组件传参(不需要登录)</router-link> |
       <router-link to="/login">登录</router-link>
     </div>
     <router-view/>
